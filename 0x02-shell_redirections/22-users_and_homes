@@ -1,2 +1,2 @@
 #!/bin/bash
-/etc/passwd | sort -t ':' -k 1
+read -r username _ _ _ _ home_directory /etc/passwd
